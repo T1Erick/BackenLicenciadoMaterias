@@ -48,28 +48,28 @@ export class TeacherEntity {
     comment: 'Nombre  del profesor',
     nullable: false, //atributo abligatorio
   })
-  code: string;
+  name: string;
 
   @Column('varchar', {
     name: 'second_name',
     comment: 'Apellido del Profesor',
     nullable: false, //atributo abligatorio
   })
-  title: string;
+  secondname: string;
 
   @Column('varchar', {
     name: 'title',
     comment: 'Titulo del profesor',
     nullable: false, //atributo obligatorio
   })
-  price: number;
+  title: number;
 
   @Column('boolean', {
     name: 'genero',
     comment: 'Genero del profesor',
-    nullable: true, //atributo opcional
+    nullable: false, //atributo opcional
   })
-  description: string;
+  genero: string;
 
 
 
