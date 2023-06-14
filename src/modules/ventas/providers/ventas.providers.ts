@@ -4,7 +4,7 @@ import { SubjectEntity, TeacherEntity } from '../products/entities';
 import { RepositoryEnum } from 'src/shared/enums/repository.enum';
 import { DataSourceEnum } from 'src/shared/enums/data-source.emus';
 
-export const ventasProvider =[
+export const VentasProvider =[
     {
         provide: RepositoryEnum.TEACHER_REPOSITORY,
         useFactory:(DataSource:DataSource) =>
