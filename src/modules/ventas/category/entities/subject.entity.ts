@@ -9,7 +9,7 @@ import {
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
-import { TeacherEntity } from './teacher.model';
+import { TeacherEntity } from './teacher.entity';
 
 
 
@@ -49,14 +49,14 @@ export class SubjectEntity{
         comment: 'Nombre de la materia ',
         nullable: false, //atributo obligatorio
     })
-     name_category: number;
+     name_subject: number;
     
     @Column('varchar', {
         name: 'description_subject',
         comment: 'Descripcion de la materia',
         nullable: true,
     })
-    description_Category: string;
+    description_subject: string;
 
     
 }

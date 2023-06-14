@@ -1,8 +1,8 @@
-import { BaseTeacherDto } from "./base.teacher.dto";
+import { BaseSubjectDto } from "./base.subject.dto";
 import {Exclude,Expose} from "class-transformer";
 
 @Exclude()
-export class readTeacherDto extends BaseTeacherDto{
+export class readSubjectDto extends BaseSubjectDto{
     @Expose()
     readonly id;
     @Expose()

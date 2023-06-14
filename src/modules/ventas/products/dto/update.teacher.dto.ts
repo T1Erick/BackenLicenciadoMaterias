@@ -3,6 +3,7 @@ import { BaseTeacherDto } from "./base.teacher.dto"
 
 export class UpdateTeacherDto extends PartialType( BaseTeacherDto){
     
+    
 
 
 }

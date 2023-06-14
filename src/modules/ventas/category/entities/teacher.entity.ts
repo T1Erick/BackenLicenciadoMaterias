@@ -9,7 +9,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 
-import { SubjectEntity } from './subject.model';
+import { SubjectEntity } from './subject.entity';
 
 //Tabla
 @Entity('Teachers', { schema: 'ventas' })
@@ -72,13 +72,6 @@ export class TeacherEntity {
   genero: string;
 
 
-
-  @Column('varchar',{
-    name: 'subject',
-    comment: 'Materia del profesor',
-    nullable: false
-  })
-  subjectAt: string;
 }
   
   /***
