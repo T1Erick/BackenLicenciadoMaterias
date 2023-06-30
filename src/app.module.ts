@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 import { ItemsModule } from './items/items.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { VentasModule } from './modules/ventas/ventas.module';
-import { VentasService } from './modules/ventas/services/ventas.service';
+import { VentasService } from './modules/ventas/services/teacher.service';
 
 
 
